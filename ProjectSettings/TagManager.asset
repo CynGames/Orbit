@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Background
+  - Gameplay
+  - Parte
+  - FrameLine
+  - Square
+  - Circle
+  - Triangle
+  - Diamond
+  - Pentagon
+  - Trash
+  - Meteorite
+  - Connect
+  - Plane
+  - FrameLineWrong
+  - Box
+  - BigBox
+  - Item
+  - Inventory
+  - NonItem
+  - LineDrawer
+  - pepe
+  - PopUp
+  - WorkArea
+  - RulesMenu
+  - TimerPopUp
+  - PointsBar
+  - PointsBarPopUp
+  - Figure
+  - ReadyButton
+  - ConnectButton
+  - HelpButton
+  - FigureSquare
+  - FigureCircle
+  - Box2
+  - OptionButton
+  - YouLose
+  - BigBox2
+  - BigBox3
+  - Box3
+  - GlobalControl
+  - FirstTime
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - Line
+  - Gameplay
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1826483985
+    locked: 0
+  - name: Background Plane
+    uniqueID: 3876597573
+    locked: 0
+  - name: Line
+    uniqueID: 4187644959
+    locked: 0
+  - name: Gameplay
+    uniqueID: 3891532363
+    locked: 0

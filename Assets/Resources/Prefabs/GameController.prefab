@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6088291013109792971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6088291013109792966}
+  - component: {fileID: 6088291013109792961}
+  - component: {fileID: 6088291013109792967}
+  - component: {fileID: 8833292413847149516}
+  m_Layer: 8
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6088291013109792966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6088291013109792971}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6088291013109792961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6088291013109792971}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566dcaae8a7c26e4caf8325127f6916e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDrawLines: 1
+  score: 0
+  timerScore: 130
+  scoreInSeconds: 0
+  TimeScoreText: {fileID: 0}
+  isConnectUsed: 1
+  GameController: {fileID: 6088291013109792971}
+  BackgroundPlane: {fileID: 0}
+  connectReady: 0
+  allLines: []
+  allLinesWrong: []
+  correctColor: {fileID: 2100000, guid: cf7d3dd0681c98c4d8cdf6341e37b34c, type: 2}
+  wrongColor: {fileID: 2100000, guid: d1055b9017706ba4fb87df9aa1b6b639, type: 2}
+  correctSound: {fileID: 0}
+  wrongSound: {fileID: 0}
+  clicks: 0
+--- !u!114 &6088291013109792967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6088291013109792971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 851a9638fb185fb4c90923ce5fb20157, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BackgroundPlane: {fileID: 0}
+  GameController: {fileID: 6088291013109792971}
+  Elements:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Inventory: {fileID: 0}
+  isEnabled: 0
+  i: 0
+  ReadyButton: {fileID: 0}
+  BoxInteract: {fileID: 0}
+--- !u!114 &8833292413847149516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6088291013109792971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fed199712e53a947a8a51a5c661d977, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameController: {fileID: 6088291013109792971}
+  pauseUI: {fileID: 0}
+  gameUI: {fileID: 0}
+  effectsText: {fileID: 0}
+  effects:
+  - {fileID: 0}
+  - {fileID: 0}
+  musicText: {fileID: 0}
+  music: {fileID: 0}
+  statusEffects: 0
